@@ -245,55 +245,54 @@
     <div class="location-thumbnail-section">
       <div class="location-thumbnail-first-row">
         <div class="location-thumbnail">
-          <img
-            class="thumbnail-image"
-            src="./assets/images/Maldives Hero Image.png"
-          />
+          <a href="./pages/maldives.html">
+            <img class="thumbnail-image" src="./assets/images/1 Maldives.png" />
+          </a>
           <p class="thumbnail-description">Maldives</p>
         </div>
         <div class="location-thumbnail">
-          <img
-            class="thumbnail-image"
-            src="./assets/images/Maldives Hero Image.png"
-          />
-          <p class="thumbnail-description">Maldives</p>
+          <a href="./pages/seychelles.html">
+            <img
+              class="thumbnail-image"
+              src="./assets/images/2 seychelles.png"
+            />
+          </a>
+          <p class="thumbnail-description">Seychelles</p>
         </div>
         <div class="location-thumbnail">
-          <img
-            class="thumbnail-image"
-            src="./assets/images/Maldives Hero Image.png"
-          />
-          <p class="thumbnail-description">Maldives</p>
+          <a href="./pages/mauritius.html">
+            <img
+              class="thumbnail-image"
+              src="./assets/images/3 Mauritius.png"
+            />
+          </a>
+          <p class="thumbnail-description">Mauritius</p>
         </div>
         <div class="location-thumbnail">
-          <img
-            class="thumbnail-image"
-            src="./assets/images/Maldives Hero Image.png"
-          />
-          <p class="thumbnail-description">Maldives</p>
+          <a href="./pages/uae.html">
+            <img class="thumbnail-image" src="./assets/images/4 UAE.png" />
+          </a>
+          <p class="thumbnail-description">UAE</p>
         </div>
       </div>
       <div class="location-thumbnail-second-row">
         <div class="location-thumbnail">
-          <img
-            class="thumbnail-image"
-            src="./assets/images/Maldives Hero Image.png"
-          />
-          <p class="thumbnail-description">Maldives</p>
+          <a href="./pages/bali.html">
+            <img class="thumbnail-image" src="./assets/images/5 Bali.png" />
+          </a>
+          <p class="thumbnail-description">Bali</p>
         </div>
         <div class="location-thumbnail">
-          <img
-            class="thumbnail-image"
-            src="./assets/images/Maldives Hero Image.png"
-          />
-          <p class="thumbnail-description">Maldives</p>
+          <a href="./pages/phuket.html">
+            <img class="thumbnail-image" src="./assets/images/6 Phuket.png" />
+          </a>
+          <p class="thumbnail-description">Phuket</p>
         </div>
         <div class="location-thumbnail">
-          <img
-            class="thumbnail-image"
-            src="./assets/images/Maldives Hero Image.png"
-          />
-          <p class="thumbnail-description">Maldives</p>
+          <a href="./pages/ko-samui.html">
+            <img class="thumbnail-image" src="./assets/images/7 Ko Samui.png" />
+          </a>
+          <p class="thumbnail-description">Ko Samui</p>
         </div>
       </div>
     </div>
@@ -331,5 +330,33 @@
         </p>
       </div>
     </footer>
+
+    <div>
+      <a href="#" class="scroll-to-top"
+        ><img
+          src="./assets/images/icons8-top-50.png"
+          alt="whatsapp"
+          style="width: 2rem; height: 2rem; margin-bottom: 5px"
+      /></a>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var scrollButton = document.querySelector(".scroll-to-top");
+
+        window.addEventListener("scroll", function () {
+          if (window.pageYOffset > 200) {
+            scrollButton.style.display = "block";
+          } else {
+            scrollButton.style.display = "none";
+          }
+        });
+
+        scrollButton.addEventListener("click", function (e) {
+          e.preventDefault();
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+      });
+    </script>
   </body>
 </html>

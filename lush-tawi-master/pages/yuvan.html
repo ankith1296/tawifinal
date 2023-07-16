@@ -973,5 +973,47 @@
         </p>
       </div>
     </footer>
+    <div class="floating-button-container">
+      <a
+        href="https://wa.link/kq5lpf"
+        class="whatsapp-floating-btn"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img
+          src="../assets/images/icons8-whatsapp.svg"
+          alt="whatsapp"
+          style="width: 2rem; height: 2rem; margin-top: 12px"
+        />
+      </a>
+    </div>
+
+    <div>
+      <a href="#" class="scroll-to-top"
+        ><img
+          src="../assets/images/icons8-top-50.png"
+          alt="whatsapp"
+          style="width: 2rem; height: 2rem; margin-bottom: 5px"
+      /></a>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var scrollButton = document.querySelector(".scroll-to-top");
+
+        window.addEventListener("scroll", function () {
+          if (window.pageYOffset > 200) {
+            scrollButton.style.display = "block";
+          } else {
+            scrollButton.style.display = "none";
+          }
+        });
+
+        scrollButton.addEventListener("click", function (e) {
+          e.preventDefault();
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+      });
+    </script>
   </body>
 </html>

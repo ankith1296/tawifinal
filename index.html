@@ -625,6 +625,31 @@
             
         </div>
     </div>
+
+    <div class="floating-button-container">
+        <a
+          href="https://wa.link/kq5lpf"
+          class="whatsapp-floating-btn"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="./public/images/icons8-whatsapp.svg"
+            alt="whatsapp"
+            style="width: 2rem; height: 2rem;margin-bottom: 5px;"
+          />
+        </a>
+      </div>
+<div>
+    <a href="#" class="scroll-to-top"><img
+        src="./public/images/icons8-top-50.png"
+        alt="whatsapp"
+        style="width: 2rem; height: 2rem;margin-bottom: 5px;"
+      /></a>
+</div>
+      
+
+
 <!-- <div class="modal fade modal-lg" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" style="display: none;max-width:1000px;" aria-hidden="true">
     <div class="modal-dialog modal-fullscreen-sm-down" role="document">
         <div class="modal-content">
@@ -675,6 +700,30 @@
       $('#datepicker').datepicker();
     });
   </script>
+
+<!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$scroll to top$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var scrollButton = document.querySelector('.scroll-to-top');
+    
+      window.addEventListener('scroll', function() {
+        if (window.pageYOffset > 200) {
+          scrollButton.style.display = 'block';
+        } else {
+          scrollButton.style.display = 'none';
+        }
+      });
+    
+      scrollButton.addEventListener('click', function(e) {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    });
+  </script>
+  
+
+<!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$scroll to top$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
+
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 
 </body>
