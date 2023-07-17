@@ -255,13 +255,13 @@ section {
     background-image: url(../images/hero_image_0.png);
   }
   25% {
-    background-image: url(../images/Hero\ Image-1.png);
+    background-image: url(../images/hero_image_1.png);
   }
   50% {
-    background-image: url(../images/Hero\ Image-2.png);
+    background-image: url(../images/hero_image_2.png);
   }
   75% {
-    background-image: url(../images/Hero\ Image-3.png);
+    background-image: url(../images/hero_image_3.png);
   }
   100% {
     background-image: url(../images/hero_image_0.png);
@@ -270,8 +270,8 @@ section {
 
 /* Preload Images */
 .background:after {
-  content: url(../images/hero_image_0.png) url(../images/Hero\ Image-1.png)
-    url(../images/Hero\ Image-2.png) url(..c/images/Hero\ Image-3.png);
+  content: url(../images/hero_image_0.png) url(../images/hero_image_1.png)
+    url(../images/hero_image_2.png) url(../images/hero_image_3.png);
   display: none;
 }
 
@@ -307,7 +307,7 @@ section {
   z-index: 1;
 }
 .header::before {
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -1709,6 +1709,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .final-section {
   display: flex;
   justify-content: flex-end;
+
   height: 3rem;
   background-color: #015c5c;
   color: #fff;
