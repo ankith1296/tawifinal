@@ -457,6 +457,49 @@ footer {
 .resort-content {
   padding-top: 1rem;
 }
+
+.navbar-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.nav-buttons {
+  width: 7rem;
+  height: 3rem;
+  border: 1px solid white;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  /* padding: 1rem; */
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.nav-button-group {
+  display: flex;
+  width: 26rem;
+
+  justify-content: space-between;
+  font-size: 20px;
+  margin-right: 5rem;
+}
+
+.nav-buttons:hover {
+  border: 1px solid #9bc699;
+  color: #9bc699;
+  cursor: pointer;
+}
+
+.menu li {
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+}
+
 /* ---------------------------------------- */
 @media only screen and (max-width: 768px) {
   .section-new-row {
