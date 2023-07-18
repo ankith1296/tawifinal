@@ -724,6 +724,23 @@
 
 <!-- $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$scroll to top$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ -->
 
+<!-- ##############################header scroll###################################### -->
+<script>
+    window.addEventListener('scroll', function() {
+  var header = document.querySelector('.header');
+  var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+
+  if (scrollPosition > 0) {
+    header.classList.add('transparent');
+  } else {
+    header.classList.remove('transparent');
+  }
+});
+
+</script>
+
+<!-- #################################################################### -->
+
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 
 </body>
