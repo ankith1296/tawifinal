@@ -624,6 +624,11 @@ ul {
   border-radius: 30px;
   transition: all 0.3s ease;
 }
+
+.nav-buttons:hover {
+  border: 1px solid #9bc699;
+  color: #9bc699;
+}
 .menu ul {
   font-family: "Raleway", sans-serif;
   margin: 0;

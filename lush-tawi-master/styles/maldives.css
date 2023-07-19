@@ -530,6 +530,11 @@ ul {
   transition: all 0.3s ease;
 }
 
+.nav-buttons:hover {
+  border: 1px solid #9bc699;
+  color: #9bc699;
+}
+
 .menu li {
   font-size: 20px;
   font-family: "Raleway", sans-serif;
