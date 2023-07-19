@@ -1225,7 +1225,7 @@ input[type="number"]::-webkit-outer-spin-button {
 ********************************************************** */
 
 .nav-buttons {
-  width: 7rem;
+  width: 10rem;
   height: 2.5rem;
   border: 1px solid white;
   color: white;
@@ -1245,7 +1245,9 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .nav-button-group {
-  margin-right: 4rem;
+  /* margin-right: 4rem; */
+  display: flex;
+  align-items: center;
 }
 
 .main_nav {
@@ -1690,6 +1692,79 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   transform: scale(0.95);
   box-shadow: 0 2px 4px rgba(49, 48, 48, 0.3);
 }
+
+/* $$$$$$$$$$$$$FEATURES$$$$$$$$$$$$$$$$$$$ */
+
+.why-choose-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 1rem;
+}
+
+.features-section {
+  display: flex;
+  color: #838080;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  flex-direction: row;
+  margin-top: 4rem;
+  width: 90rem;
+  justify-content: space-around;
+}
+
+.image-column-section2 {
+  /* height: 10rem; */
+  width: 10rem;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.image-column-section2 img {
+  height: 6rem;
+  width: 6rem;
+}
+
+.image-column-section2 p {
+  margin-top: 2rem;
+  display: flex;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
+  color: #888;
+  /* padding-left: 1rem; */
+  align-items: center;
+}
+
+.get-in-touch-button {
+  margin-top: 2rem;
+  /* margin-bottom: 2rem; */
+  /* width: 8rem; */
+  /* padding-top: 5rem; */
+  display: inline-block;
+  padding: 10px;
+  color: #9bc699;
+  /* margin: 1rem 0rem; */
+  border: 1px solid #9bc699;
+  border-radius: 30px;
+
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+  width: 22rem;
+  height: 4rem;
+  transition: 0.3s ease;
+}
+.get-in-touch-button:hover {
+  color: #838080;
+  border: 1px solid #838080;
+}
+
+/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 
 /* $$$$$$$$$$$$$$FOOTER$$$$$$$$$$$$$$$$$$$$ */
 .follow-us-on-social-media {

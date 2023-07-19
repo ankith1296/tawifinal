@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900");
 
 * {
   margin: 0;
@@ -502,7 +503,7 @@ body {
   font-size: 1.4rem;
 }
 
-.nav-buttons {
+/* .nav-buttons {
   width: 7rem;
   height: 3rem;
   border: 1px solid white;
@@ -525,13 +526,13 @@ body {
 .nav-button-group {
   margin-right: 5rem;
   display: flex;
-}
+} */
 
 ul {
   list-style-type: none;
 }
 
-.main_nav {
+/* .main_nav {
   display: flex;
 }
 .main_nav ul li:not(:last-of-type) {
@@ -545,14 +546,14 @@ ul {
 .main_nav ul li a:hover,
 .main_nav ul li.active a {
   color: #246266;
-}
+} */
 
-.navbar-buttons {
+/* .navbar-buttons {
   display: flex;
   align-items: center;
-}
+} */
 
-.nav-buttons {
+/* .nav-buttons {
   width: 7rem;
   height: 3rem;
   border: 1px solid white;
@@ -563,13 +564,13 @@ ul {
   justify-content: center;
   align-items: center;
   font-size: 20px;
-  /* padding: 1rem; */
+ 
   border-radius: 30px;
   transition: all 0.3s ease;
   text-decoration: none;
-}
+} */
 
-.nav-button-group {
+/* .nav-button-group {
   display: flex;
   width: 26rem;
 
@@ -582,16 +583,51 @@ ul {
   border: 1px solid #9bc699;
   color: #9bc699;
   cursor: pointer;
-}
+} */
 
-.menu li {
+/* .menu li {
   font-size: 20px;
   font-family: "Raleway", sans-serif;
+} */
+
+.nav-button-group {
+  display: flex;
+  justify-content: space-between;
+  width: 50rem;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Raleway";
+  font-weight: 400;
 }
-/* .menu ul {
+
+.nav-button-group a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav-buttons {
+  width: 10rem;
+  height: 2.5rem;
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-size: 20px; */
+  font-family: "Raleway";
+  font-weight: 400;
+  padding: 5px;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+.menu ul {
   font-family: "Raleway", sans-serif;
   margin: 0;
-} */
+}
 
 .download-brochure-button {
   /* display: inline-block;
