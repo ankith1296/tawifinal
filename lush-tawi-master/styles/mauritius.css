@@ -214,7 +214,7 @@ body {
 }
 
 /* Footer Styles */
-footer {
+/* footer {
   background-color: #246266;
   padding: 40px;
   display: flex;
@@ -251,7 +251,7 @@ footer {
   text-align: right;
   font-size: 1.1rem;
   color: beige;
-}
+} */
 
 @media only screen and (max-width: 768px) {
   .section1 .navigation .hamburger {
@@ -539,6 +539,109 @@ ul {
   font-size: 20px;
   font-family: "Raleway", sans-serif;
 }
+
+/* ############# NEW-FOOTER ############ */
+.footer-container {
+  height: 20rem;
+  margin-top: 2rem;
+}
+.footer-top-section {
+  display: flex;
+  height: 80%;
+}
+.footer-left {
+  flex: 75%;
+  background-color: #9bc699;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-left-inside {
+  width: 80%;
+  height: 70%;
+  border-top: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(255, 255, 255);
+  margin: 2rem 2rem;
+  display: flex;
+}
+
+.footer-logo {
+  flex: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-links {
+  flex: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links-row-one {
+  display: flex;
+  margin-left: 4rem;
+  margin-top: 3rem;
+}
+
+.footer-links-row-two {
+  display: flex;
+  margin-left: 4rem;
+  margin-top: 1.5rem;
+}
+
+.footer-right {
+  flex: 25%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.address-section {
+  margin-top: 2rem;
+}
+
+.follow-us-on-social-media {
+  /* margin-top: 1rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.social-media-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 6rem;
+}
+
+.social-media-button-image {
+  height: 1.5rem;
+}
+
+.footer-bottom-section {
+}
+
+.final-section {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 1rem;
+  height: 4rem;
+  background-color: #015c5c;
+  color: #fff;
+}
+
+.copyright-privacy-policy {
+  color: #fff;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: ; */
+}
+
+/* ############# ############ */
 
 /* ---------------------------------------- */
 @media only screen and (max-width: 768px) {

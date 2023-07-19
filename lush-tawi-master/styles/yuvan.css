@@ -748,23 +748,21 @@ ul {
   align-items: center;
 }
 .footer-links {
-  flex: 75%;
+  flex: 70%;
   display: flex;
   flex-direction: column;
 }
+
 .footer-links-row-one {
   display: flex;
-  justify-content: space-around;
+  margin-left: 4rem;
   margin-top: 3rem;
-  text-align: left;
-  margin-left: 1rem;
 }
 
 .footer-links-row-two {
   display: flex;
-  justify-content: space-around;
+  margin-left: 4rem;
   margin-top: 1.5rem;
-  text-align: left;
 }
 
 .footer-right {
@@ -776,7 +774,7 @@ ul {
 }
 
 .address-section {
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .follow-us-on-social-media {
@@ -812,7 +810,7 @@ ul {
 
 .copyright-privacy-policy {
   color: #fff;
-  width: 57%;
+  width: 60%;
   display: flex;
   justify-content: space-between;
   /* align-items: ; */
