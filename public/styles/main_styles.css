@@ -2177,6 +2177,16 @@ footer {
   font-weight: 400;
 }
 
+.footer-blank-section {
+  height: 60rem;
+  display: none;
+}
+
+.footer-bottom-blank {
+  height: 12rem;
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .new-booking-form {
     display: none;
@@ -2222,6 +2232,75 @@ footer {
   .brand-banner-tawifacilities {
     background-color: #9bc699;
     background-image: none;
+  }
+
+  .footer-blank-section {
+    display: block;
+  }
+
+  .footer-top-section {
+    flex-direction: column;
+  }
+
+  .footer-left-inside {
+    flex-direction: column;
+    padding-top: 1rem;
+    justify-content: center;
+    border: none;
+  }
+  .footer-logo {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-logo img {
+    height: 4rem;
+  }
+  .footer-left {
+    height: 12rem;
+  }
+
+  .footer-links-row-one {
+    display: flex;
+    font-size: 12px;
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+  .footer-links-row-two {
+    display: flex;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 1rem;
+  }
+
+  .footer-bottom-blank {
+    display: block;
+  }
+
+  .final-section {
+    display: flex;
+
+    justify-content: center;
+    padding-top: 14px;
+
+    background-color: #015c5c;
+    color: #fff;
+  }
+
+  .copyright-privacy-policy {
+    color: #fff;
+    width: 100%;
+    display: flex;
+
+    flex-direction: column;
+    /* align-items: ; */
+  }
+  .copyright-text {
+    font-size: 10px;
+  }
+  .terms-and-conditions-text a {
+    font-size: 10px;
   }
 }
 /* ############# ############ */

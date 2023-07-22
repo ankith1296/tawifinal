@@ -98,6 +98,24 @@ body {
   font-family: "Cinzel Decorative", cursive;
 }
 
+.hamburger {
+  display: none;
+  margin-left: 25px;
+  cursor: pointer;
+}
+.hamburger i {
+  font-size: 24px;
+  color: #ffffff;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.hamburger:hover i {
+  color: #ffa37b;
+}
+
 /* section 2 */
 
 .section2 {
