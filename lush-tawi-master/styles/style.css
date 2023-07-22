@@ -837,7 +837,7 @@ ul {
 }
 
 .footer-bottom-blank {
-  height: 16rem;
+  height: 12rem;
   display: none;
 }
 
@@ -976,9 +976,21 @@ ul {
 
   .footer-left-inside {
     flex-direction: column;
-    padding-top: 2rem;
+    padding-top: 1rem;
     justify-content: center;
     border: none;
+  }
+  .footer-logo {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-logo img {
+    height: 4rem;
+  }
+  .footer-left {
+    height: 12rem;
   }
 
   .footer-links-row-one {
