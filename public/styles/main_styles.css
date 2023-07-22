@@ -1576,6 +1576,37 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   border-radius: 20px;
   opacity: 0.8;
 }
+
+#nightsnum {
+  width: 3.5rem;
+  height: 2.5rem;
+
+  /* Adjust padding and border */
+  padding: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+
+  /* Add font styles */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+
+  /* Customize appearance for certain browsers */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  /* Add background and text color */
+  background-color: #f9f9f9;
+  color: #333;
+  opacity: 0.8;
+  /* Add hover and focus styles */
+  transition: border-color 0.3s ease-in-out;
+}
+
+#nightsnum:focus {
+  outline: none;
+}
 .child-form {
   display: flex;
   flex-direction: column;
