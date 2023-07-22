@@ -1233,7 +1233,7 @@ input[type="number"]::-webkit-outer-spin-button {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 20px;
+  /* font-size: 20px; */
   padding: 1rem;
   border-radius: 30px;
   transition: all 0.3s ease;
@@ -1263,6 +1263,9 @@ input[type="number"]::-webkit-outer-spin-button {
   justify-content: flex-start;
 }
 
+.journey-within-image {
+  height: 10rem;
+}
 /* input[type="date"]::-webkit-inner-spin-button,
 input[type="date"]::-webkit-calendar-picker-indicator {
   display: none;
@@ -1982,6 +1985,16 @@ footer {
 
   .brand-yuvaan button {
     margin-top: 3rem;
+  }
+
+  .journey-within-image {
+    height: 6rem;
+    padding: 0 2rem;
+  }
+
+  .brand-banner-tawifacilities {
+    background-color: #128c7e;
+    background-image: none;
   }
 }
 /* ############# ############ */
