@@ -14,6 +14,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 .section1 {
@@ -628,7 +629,9 @@ body {
 }
 
 .location-thumbnail-section {
-  flex: 1;
+  /* flex: 1; */
+  display: flex;
+  flex-direction: column;
   margin: 1rem 4rem;
   /* padding-top: 1rem; */
   /* background-color: black; */
@@ -825,5 +828,25 @@ ul {
 .nav-buttons:hover {
   border: 1px solid #9bc699;
   color: #9bc699;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .location-thumbnail-first-row {
+    flex-direction: column;
+  }
+
+  .location-thumbnail {
+    width: 100%;
+  }
+
+  .location-thumbnail-second-row {
+    flex-direction: column;
+  }
+
+  .location-thumbnail-section {
+    align-items: center;
+    justify-content: center;
+  }
 }
 /* -------------------------------------- */

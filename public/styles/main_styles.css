@@ -1954,6 +1954,36 @@ footer {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
+
+@media screen and (max-width: 768px) {
+  .features-section {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .image-column-section2 {
+    width: 100%;
+  }
+
+  .image-column-section2 img {
+    margin: 2rem;
+  }
+
+  .curatedbylush-logo {
+    height: 6rem;
+    width: 6rem;
+    margin-top: 2rem;
+  }
+
+  .yuvaan-banner-logo {
+    margin-top: 3rem;
+    width: 18rem;
+  }
+
+  .brand-yuvaan button {
+    margin-top: 3rem;
+  }
+}
 /* ############# ############ */
 /* **********************************************************
 **********************
