@@ -827,11 +827,15 @@ ul {
 
   .section3-top .section-description {
     padding: 1rem 1rem;
+    font-size: 12px;
   }
 
+  .main_nav {
+    display: none;
+  }
   .section-title .title {
     margin-top: 10rem;
-    font-size: 5rem;
+    font-size: 2rem;
 
     font-family: "Montaga", serif;
     text-transform: uppercase;
@@ -857,20 +861,90 @@ ul {
 
   .curated-by-lush-logo {
     width: 6rem;
-    padding-top: 6rem;
+  }
+
+  .section2-upper-download-brochure {
+    font-size: 1rem;
+  }
+  .download-brochure-button {
+    margin: 2rem;
+    width: 11rem;
+    padding: 10px 20px;
+    display: flex;
+    color: #9bc699;
+    /* margin: 1rem 0rem; */
+    border: 1px solid #9bc699;
+    border-radius: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    height: 4rem;
+    transition: 0.3s ease;
+  }
+
+  .section-hero {
+    height: 70vh;
+    width: 100%;
+  }
+  .section-hero-seychelles {
+    height: 70vh;
+    width: 100%;
+  }
+
+  .section-hero-uae {
+    height: 70vh;
+    width: 100%;
+  }
+  .section-hero-bali {
+    height: 70vh;
+    width: 100%;
   }
 
   .section3-top .section-heading {
-    font-size: 1.5rem;
-    font-family: "Montserrat", sans-serif;
-    color: #b98a10;
-    margin-bottom: 20px;
-    text-decoration: solid;
+    font-size: 1rem;
+
+    text-align: center;
+
+    margin-left: 10px;
+    /* margin-bottom: 20px; */
+    /* text-decoration: solid; */
+  }
+
+  .section-sub-heading-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section3-top .section-sub-heading {
+    font-size: 1.2rem;
+    font-family: Cinzel, serif;
+    color: #000000;
+    /* margin-bottom: 20px; */
+    /* margin-top: 1rem; */
+    /* margin-right: 10px; */
+    text-align: center;
+    margin-left: 10px;
+    font-weight: bold;
   }
 
   .badge-image {
-    height: 2.5;
+    height: 4rem;
     width: 6rem;
+  }
+
+  .line {
+    border-top: 2px solid #b98a10;
+    width: 4rem;
+  }
+
+  .section3-top .pricing {
+    font-size: 1rem;
+    margin-left: 10px;
   }
 }
 
