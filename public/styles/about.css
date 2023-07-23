@@ -1207,6 +1207,15 @@ input[type="number"]::-webkit-outer-spin-button {
   background-color: #d2d2d2;
 }
 
+.who-are-we-heading {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: #9bc699;
+  font-family: Montserrat;
+  font-size: 35pt;
+  font-weight: 600;
+}
+
 /* RESPONSIVE ABOUT */
 @media screen and (max-width: 768px) {
   .download-company-portfolio-content {
@@ -1243,8 +1252,21 @@ input[type="number"]::-webkit-outer-spin-button {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: left;
+    font-size: 12px;
+  }
+  li {
+    margin: 0 10px; /* Add some vertical spacing between list items */
+    font-family: Arial, sans-serif; /* Optional: Set the font family */
+  }
 
-    font-size: 14px;
+  .who-are-we-heading {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #9bc699;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 600;
   }
 }
 /* <!-- -----------------------------------------------------------
