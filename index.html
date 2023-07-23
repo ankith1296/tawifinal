@@ -738,15 +738,19 @@
 <script>
     // Function to calculate the number of nights between two dates
     function calculateNights() {
-      const dateIn = new Date(document.getElementById("new-booking-date-in").value);
-      const dateOut = new Date(document.getElementById("new-booking-date-out").value);
+      var dateIn = new Date(document.getElementById("new-booking-date-in").value);
+      var dateOut = new Date(document.getElementById("new-booking-date-out").value);
   
-      // Calculate the time difference between dates and convert it to days
-      const timeDifference = dateOut - dateIn;
-      const nights = Math.ceil(timeDifference / (1000 * 3600 * 24));
-  
-      // Update the "number of nights" field with the calculated value
-      document.getElementById("nightsnum").value = nights;
+      if (dateOut > dateIn) {
+      var timeDifference = dateOut.getTime() - dateIn.getTime();
+      var nights = Math.ceil(timeDifference / (1000 * 3600 * 24)); // Round up to handle partial days
+
+      // Display the number of nights in the nights field
+      document.getElementById('nightsnum').value = nights;
+    } else {
+      // If date-out is before or same as date-in, set nights to 0 or display an error message
+      document.getElementById('nightsnum').value = 0; // or display an error message
+    }
     }
   
     // Add event listeners to the date-in and date-out fields
