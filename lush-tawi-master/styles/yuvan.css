@@ -939,9 +939,11 @@ ul {
   .section1 .navigation .menu.active {
     display: flex;
     flex-direction: column;
-    background-color: #ffffff;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
     position: absolute;
-    height: 70vh;
+    height: 50vh;
     top: 110px;
     right: 20px;
     padding: 10px;
@@ -1138,7 +1140,7 @@ ul {
     color: #fff;
     width: 100%;
     display: flex;
-
+    text-align: center;
     flex-direction: column;
     /* align-items: ; */
   }
