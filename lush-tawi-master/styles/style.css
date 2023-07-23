@@ -977,7 +977,9 @@ ul {
   .section1 .navigation .menu.active {
     display: flex;
     flex-direction: column;
-    background-color: #ffffff;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
     position: absolute;
     top: 110px;
     right: 20px;
