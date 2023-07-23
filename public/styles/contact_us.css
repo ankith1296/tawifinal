@@ -1399,6 +1399,44 @@ textarea::placeholder {
     font-size: 30px;
     font-weight: 600;
   }
+
+  .text-field-heading {
+    font-size: 28pt;
+  }
+
+  .text-field-sub-heading {
+    font-size: 30px;
+  }
+  .text-field-row-one {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-fields {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #email {
+    width: 20rem;
+  }
+
+  #contact-number {
+    width: 20rem;
+  }
+
+  #help-question {
+    width: 20rem;
+  }
+
+  .text-field-row-two {
+    width: 20rem;
+  }
+
+  .text-field-content p {
+    font-size: 12pt;
+    color: #246266;
+  }
 }
 /* <!-- -----------------------------------------------------------
 
