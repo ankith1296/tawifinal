@@ -1932,7 +1932,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   font-weight: 200;
   flex-direction: row;
   margin-top: 4rem;
-  width: 90rem;
+  width: 75rem;
   justify-content: space-around;
 }
 

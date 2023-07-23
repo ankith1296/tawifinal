@@ -193,7 +193,7 @@
 </div>
 <div class="nights-form">
     <p style="padding-left: 6px;">Nights</p>
-    <input type="number" class="form-control" id="nightsnum" value="2023-03-02" placeholder="0">
+    <input type="number" class="form-control" id="nightsnum"  readonly>
 </div>
 <div class="adult-form">
     <p style="padding-left: 9px;">Adult</p>
@@ -527,7 +527,7 @@
 
         <div class="gallery_item">
             <div class="background_image" style="background-image:url(public/images/bgimg2.png);">
-                <p class="rom_exp">A Romantic Experience <br>Wake up to the rhythm of waves washing ashore in the
+                <p class="rom_exp"><span style="font-weight: 700;">A Romantic Experience</span> <br>Wake up to the rhythm of waves washing ashore in the
                     Maldives. Your loved one by your side.
                 </p>
 
@@ -732,6 +732,28 @@
 </script>
 
 <!-- #################################################################### -->
+
+
+<!-- #########################################NIGHT CALCULATER#################### -->
+<script>
+    // Function to calculate the number of nights between two dates
+    function calculateNights() {
+      const dateIn = new Date(document.getElementById("new-booking-date-in").value);
+      const dateOut = new Date(document.getElementById("new-booking-date-out").value);
+  
+      // Calculate the time difference between dates and convert it to days
+      const timeDifference = dateOut - dateIn;
+      const nights = Math.ceil(timeDifference / (1000 * 3600 * 24));
+  
+      // Update the "number of nights" field with the calculated value
+      document.getElementById("nightsnum").value = nights;
+    }
+  
+    // Add event listeners to the date-in and date-out fields
+    document.getElementById("new-booking-date-in").addEventListener("change", calculateNights);
+    document.getElementById("new-booking-date-out").addEventListener("change", calculateNights);
+  </script>
+<!-- ################################################################################### -->
 
 <!-- @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
 
