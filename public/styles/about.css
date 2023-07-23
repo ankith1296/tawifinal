@@ -899,7 +899,7 @@ input[type="number"]::-webkit-outer-spin-button {
 10. Footer
 *********************************/
 
-.footer {
+/* .footer {
   background: #ffffff;
   padding-top: 81px;
 }
@@ -1026,7 +1026,7 @@ input[type="number"]::-webkit-outer-spin-button {
   font-size: 15px;
   font-weight: 500;
   color: #6d6d6d;
-}
+} */
 
 /* <!-- -----------------------------------------------------------
 11-07-2023
@@ -1214,6 +1214,11 @@ input[type="number"]::-webkit-outer-spin-button {
   font-family: Montserrat;
   font-size: 35pt;
   font-weight: 600;
+}
+
+.footer-blank-section-about {
+  height: 60rem;
+  display: none;
 }
 
 /* RESPONSIVE ABOUT */

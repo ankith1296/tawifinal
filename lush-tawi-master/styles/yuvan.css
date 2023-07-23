@@ -44,8 +44,9 @@ body {
 }
 
 .section1-top .navigation .hamburger .line {
-  width: 30px;
-  height: 3px;
+  width: 25px;
+  height: 4px;
+  border-radius: 5px;
   background-color: #ffffff;
   margin-bottom: 5px;
 }
@@ -801,7 +802,7 @@ ul {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vh;
+  height: 70vh;
   z-index: 101;
   background: rgba(255, 255, 255, 0.93);
   visibility: hidden;
@@ -823,7 +824,7 @@ ul {
   z-index: 1;
 }
 .menu_close i {
-  font-size: 24px;
+  font-size: 28px;
   color: #121212;
 }
 .aa {
@@ -940,7 +941,8 @@ ul {
     flex-direction: column;
     background-color: #ffffff;
     position: absolute;
-    height: 100vh;
+    height: 70vh;
+    top: 110px;
     right: 20px;
     padding: 10px;
   }

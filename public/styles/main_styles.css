@@ -2072,7 +2072,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 /* ############# NEW-FOOTER ############ */
 .footer-container {
-  height: 20rem;
+  /* height: 20rem; */
   margin-top: 2rem;
 }
 .footer-top-section {
@@ -2178,13 +2178,29 @@ footer {
 }
 
 .footer-blank-section {
-  height: 60rem;
+  /* height: 10rem; */
   display: none;
 }
 
 .footer-bottom-blank {
-  height: 12rem;
+  /* height: 2rem; */
   display: none;
+}
+.copyright-privacy-policy {
+  color: #fff;
+  width: 60%;
+  display: flex;
+
+  justify-content: space-between;
+  /* align-items: ; */
+}
+.copyright-text {
+  color: #fff;
+  font-size: 1rem;
+}
+.terms-and-conditions-text a {
+  font-size: 1rem;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 768px) {
