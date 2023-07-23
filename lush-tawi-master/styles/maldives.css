@@ -425,6 +425,15 @@ body {
   width: 6.5rem;
 }
 
+.badge-image-ultra {
+  /* position: absolute;
+  left: 66rem;
+  bottom: 8.1rem; */
+  margin-left: 1rem;
+  height: 3rem;
+  width: 6.5rem;
+}
+
 .resort-content {
   padding-top: 1rem;
 }
