@@ -237,6 +237,7 @@ section {
   width: 100%;
   height: 100%;
 }
+
 .slide {
   position: absolute;
   top: 0;
@@ -246,8 +247,8 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  /* backgroundsider */
-  animation: changeBackground 24s infinite;
+
+  animation: changeBackground 26s infinite;
 }
 
 @keyframes changeBackground {
@@ -268,8 +269,7 @@ section {
   }
 }
 
-/* Preload Images */
-.background:after {
+.slide:after {
   content: url(../images/hero_image_0.png) url(../images/hero_image_1.png)
     url(../images/hero_image_2.png) url(../images/hero_image_3.png);
   display: none;
