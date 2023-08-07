@@ -248,7 +248,7 @@ section {
   background-size: cover;
   background-position: center center;
 
-  animation: changeBackground 26s infinite;
+  animation: changeBackground 24s infinite;
 }
 
 @keyframes changeBackground {
@@ -258,6 +258,7 @@ section {
   25% {
     background-image: url(../images/hero_image_1.png);
   }
+
   50% {
     background-image: url(../images/hero_image_2.png);
   }

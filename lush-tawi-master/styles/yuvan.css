@@ -443,7 +443,16 @@ body {
 }
 
 .section-hero-phuket {
-  background-image: url("../assets/images/Phuket\ Hero\ Image.png");
+  background-image: url("../assets/images/Phuket_Yuvaan.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-hero-ko-samui {
+  background-image: url("../assets/images/Ko_Samui.png");
   background-size: cover;
   background-position: center;
   height: 100vh;
